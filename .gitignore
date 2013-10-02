@@ -16,7 +16,7 @@
 /tmp
 
 # Ignore jetty and jetty data directories
-/jetty
+jetty
 
 # Ignore local rvm config
 .rvmrc
