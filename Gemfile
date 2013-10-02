@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
+gem 'hydra', '~> 6.0.0', :require => 'hydra6'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
@@ -43,3 +44,15 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+<<<<<<< HEAD
+=======
+
+gem "unicode", platforms: [:mri_18, :mri_19]
+gem "devise", "3.0.0.rc"
+gem "devise-guests", "~> 0.3"
+gem "bootstrap-sass"
+group :development, :test do
+  gem "rspec-rails"
+  gem "jettywrapper"
+end
+>>>>>>> adams/master

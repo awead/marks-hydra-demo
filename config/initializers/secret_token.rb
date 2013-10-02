@@ -9,4 +9,6 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
+
 HydraDemo::Application.config.secret_key_base = '66d2e802fd32e013f02331d6131a0bcd5943d09ecb39793d2147e7ff3ee7752e9b710544c38fb03b76806148c9c96fdaa8658bb3adcafc1706a52f423d302e8a'
+
