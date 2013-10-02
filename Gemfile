@@ -44,8 +44,6 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-<<<<<<< HEAD
-=======
 
 gem "unicode", platforms: [:mri_18, :mri_19]
 gem "devise", "3.0.0.rc"
@@ -55,4 +53,3 @@ group :development, :test do
   gem "rspec-rails"
   gem "jettywrapper"
 end
->>>>>>> adams/master
